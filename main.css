@@ -1,10 +1,9 @@
-
 html {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
 }
 
@@ -56,7 +55,7 @@ body {
 .text-box p {
   margin: 0;
   text-align: left;
-   text-align: justify;
+  text-align: justify;
 }
 
 .text-box span {
@@ -68,12 +67,12 @@ body {
   border-radius: 3px;
   bottom: -50px;
   color: #fff;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   position: absolute;
   right: 5px;
 }
 
-.idea-2{
+.idea-2 {
   padding-inline: 12px;
 }
 
@@ -94,14 +93,15 @@ body {
   font-size: 4rem;
 }
 
-.idea-5 span, .idea-6 span, .wish-hbd span {
+.idea-5 span,
+.idea-6 span,
+.wish-hbd span {
   display: inline-block;
 }
 
-.idea-6 span{
+.idea-6 span {
   font-size: 15rem;
 }
-
 
 .six {
   position: relative;
@@ -109,13 +109,13 @@ body {
   z-index: 1;
 }
 
-.one{
+.one {
   padding-inline: 12px;
 }
 
 .six img {
   display: inline-block;
-  height: 380px;
+  height: 400px;
   max-width: 100%;
   /* height: auto; */
 }
@@ -127,8 +127,6 @@ body {
   top: -35%;
   width: 80px;
 }
-
-
 
 .baloons img {
   display: inline-block;
@@ -147,7 +145,8 @@ body {
   left: 30%;
 }
 
-.seven, .eight {
+.seven,
+.eight {
   height: 100vh;
   position: fixed;
   top: 0;
@@ -217,11 +216,11 @@ body {
   top: 94vh;
 }
 
-.wish{
+.wish {
   padding-inline: 12px;
 }
 
-.nine-teks{
+.nine-teks {
   padding-inline: 12px;
 }
 
@@ -277,26 +276,26 @@ body {
     width: 90%;
   }
 
-  .four .text-box{
+  .four .text-box {
     margin-top: -100px;
   }
 
   .container {
-  height: 100vh;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  visibility: hidden;
-  width: 100%;
-  padding: 20px;
-}
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    visibility: hidden;
+    width: 100%;
+    padding: 20px;
+  }
 
-  .one{
+  .one {
     font-size: 2rem;
   }
 
-  .three{
+  .three {
     font-size: 2.5rem;
   }
 
@@ -305,7 +304,7 @@ body {
   }
 
   .text-box .fake-btn {
-   bottom: -70px;
+    bottom: -70px;
     right: 5px;
   }
 
@@ -331,12 +330,11 @@ body {
   }
 
   .baloons img {
-  width: 600px;
-}
+    width: 600px;
+  }
 
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
   }
-
 }
