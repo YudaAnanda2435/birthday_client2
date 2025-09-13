@@ -115,7 +115,7 @@ body {
 
 .six img {
   display: inline-block;
-  height: 400px;
+  height: 450px;
   max-width: 100%;
   /* height: auto; */
 }
@@ -274,6 +274,11 @@ body {
 @media screen and (max-width: 500px) {
   .container {
     width: 90%;
+  }
+
+  .six img {
+    height: 400px;
+    max-width: 100%;
   }
 
   .four .text-box {
