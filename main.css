@@ -18,6 +18,10 @@ body {
   visibility: hidden;
 }
 
+.idea-1 {
+  padding-inline: 12px;
+}
+
 .container {
   height: 100vh;
   margin: 0 auto;
@@ -98,6 +102,7 @@ body {
 
 .five .idea-5 {
   font-size: 4rem;
+  padding-inline: 12px;
 }
 
 .idea-5 span,
